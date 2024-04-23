@@ -1,0 +1,13 @@
+1,1,2,main.out
+2,2,2,main.expectedResult
+3,3,2,main.a
+4,4,2,main.b
+5,5,2,main.calc1
+6,-1,2,main.calc2
+7,-1,0,main.comp.out
+8,-1,0,main.comp.a
+9,-1,0,main.comp.b
+10,6,0,main.comp.calc
+11,-1,1,main.power.out
+12,-1,1,main.power.in[0]
+13,-1,1,main.power.in[1]

@@ -1,0 +1,20 @@
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# Dependency directories
+node_modules/
+*.tgz
+.cache
+demo1_final.zkey
+pot14_0000.ptau
+pot14_0001.ptau
+pot14_beacon.ptau
+pot14_final.ptau
+pot18_0000.ptau
+pot18_0001.ptau
+pot18_0002.ptau
+pot18_0003.ptau
+pot18_beacon.ptau
+pot18_final.ptau
+

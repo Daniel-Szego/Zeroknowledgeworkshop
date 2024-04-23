@@ -24,5 +24,14 @@ https://remix.ethereum.org/
 /docs
 
 # Workshop steps
+# for detailed description see the actual subdirectory
 
-TBD
+# helloworld circom and integration
+/1_helloworld
+
+# complex circom calculation and integration
+/2_modularcircom
+
+# off-chain transaction
+/3_rollup
+
