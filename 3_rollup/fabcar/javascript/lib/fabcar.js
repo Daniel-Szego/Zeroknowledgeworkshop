@@ -384,6 +384,19 @@ class FabCar extends Contract {
         await ctx.stub.putState(carNumber, Buffer.from(JSON.stringify(car)));
         console.info('============= END : changeCarOwner ===========');
     }
+
+    async resigterRoot(ctx, inputs) {
+        const verify = await this.verify(ctx,inputs);
+        if(!verify){
+            throw new Error(`WRONG ROOT`);
+        }
+        await ctx.stub.putState("rootId", Buffer.from(JSON.stringify(inputs)));
+    }
+
+    async getRoot(ctx) {
+        const root = await ctx.stub.getState("rootId");
+        return root.toString();
+    }
     
     async verify(ctx, inputs) {
         console.log("verify");
