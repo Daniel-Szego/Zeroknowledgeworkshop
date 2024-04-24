@@ -2,7 +2,7 @@
 
 Materials for the Hyperledger zero knowledge programming workshop
 
-# Prerequisites
+## Prerequisites
 Prerequisites for the workshop:
 
 1. Visual Studio Code
@@ -19,19 +19,19 @@ Make sure you can start the test network and create a channel as it is written i
 4. Remix Ethereum (online browser application)
 https://remix.ethereum.org/ 
 
-# Presentations
+## Presentations
 
 /docs
 
-# Workshop steps
-# for detailed description see the actual subdirectory
+## Workshop steps
+### for detailed description see the actual subdirectory
 
-# helloworld circom and integration
+### helloworld circom and integration
 /1_helloworld
 
-# complex circom calculation and integration
+### complex circom calculation and integration
 /2_modularcircom
 
-# off-chain transaction
+### off-chain transaction
 /3_rollup
 
